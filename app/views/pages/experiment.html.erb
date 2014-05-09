@@ -108,7 +108,7 @@
       <meta property="og:url" content="https://www.airbnb.com/">
       <meta property="og:title" content="Vacation Rentals, Homes, Apartments &amp; Rooms for Rent - Airbnb">
       <meta property="og:description" content="Discover amazing, unique accommodations in 192 countries. With more than 10 million nights booked worldwide, Airbnb is the world leader in travel rentals.">
-      <meta property="og:image" content="https://a0.muscache.com/airbnb/static/logos/200x200-2bfa74c5a3542a898901cdee9638a6ee.png">
+      <meta property="og:image" content="http://farm3.staticflickr.com/2908/13957589537_61c8c51802_b.jpg">
       <meta property="og:locale" content="en_US">
 
       <meta name="twitter:url" content="https://www.airbnb.com/">
@@ -127,7 +127,7 @@
       <meta name="twitter:app:url:googleplay" content="airbnb://">
 
     <meta name="viewport" content="width=1000,maximum-scale=1.0">
-    <link rel="image_src" href="https://a0.muscache.com/airbnb/static/logos/200x200-2bfa74c5a3542a898901cdee9638a6ee.png">
+    <link rel="image_src" href="http://farm3.staticflickr.com/2908/13957589537_61c8c51802_b.jpg">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Airbnb">
 
     <!--[if lt IE 9]>
@@ -156,18 +156,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-    <div id="header" class="navbar navbar-top">
+  <div id="header" class="navbar navbar-top">
   <div class="navbar-inner">
     <div class="container container-full-width page-container">
-      <a href="/" class="brand airbnb">Airbnb</a>
+      
+      <a href="/"><img src="http://farm3.staticflickr.com/2908/13957589537_61c8c51802_b.jpg" border="0" alt="Обмін квартир" width="242" height="42"></a></p>
+
       <ul class="nav">
         <li id="header-search">
          <form action="/s" id="search-form">
-           <div id="search-bar">
+           <!--<div id="search-bar">
              <i class="icon icon-search"></i>
              <input type="text" placeholder="Where are you going?" autocomplete="off" name="location" id="header-location">
              <input type="hidden" name="source" value="hdr">
-           </div>
+           </div> -->
            <div id="header-search-settings">
              <label class="checkin">Check in <input type="text" id="header-search-checkin" name="checkin" class="checkin" placeholder="mm/dd/yyyy"/></label>
              <label class="checkout">Check out <input type="text" id="header-search-checkout" class="checkout" name="checkout" placeholder="mm/dd/yyyy"/></label>
@@ -219,7 +221,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </div>
         </li>
         <li class="list-your-space">
-          <a id="list-your-space" class="yellow btn btn-special" href="/rooms/new">List Your Space</a>
+          <a id="list-your-space" class="yellow btn btn-special" href="/rooms/new">Подати оголошення</a>
         </li>
       </ul>
 
@@ -367,7 +369,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 <div class="btn btn-large dropdown-toggle input-contrast" aria-hidden="true">
                   <span class="value language current">
-                    2-кімн.
+                    1-кімн.
                   </span>
                   <i class="icon icon-caret-down icon-gray"></i>
                 </div>
@@ -435,14 +437,146 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <span class="search-area-icon search-area-icon-checkout"></span>
             </div>
 
+
+
+            <input type="hidden" name="source" value="bb">
+
+            <button type="submit" class="btn btn-primary btn-large btn-contrast" id="submit_location">
+              Підібрати
+            </button>-->
+          </form>
+
+
+
+<div class="row-space-6">
+  <p class='text-left'>
+    All neighborhood guides
+  </p>
+</div>
+
+
+
+<div class="text-contrast">
+         <h2> ОБМІНЯЮ НА </h2>                                                                                
+        </div>
+
+
+
+  <form action="/s" id="search_form" class="custom show-search-options position-left form-inline inline-block form-inline">
+            <!--
+            <div class="input-wrapper">
+              <input type="text" class="location input-large input-contrast" autocomplete="off" id="location" name="location" placeholder="Where do you want to go?" />
+              <p id="enter_location_error_message" class="bad" style="display:none;">
+                Please set location
+              </p>
+            </div>
+          -->
+          
+            <div class="input-wrapper">
+            
+              <div class="custom-select-container">
+                      
+                <select id="guests" name="guests" class="search-option small">
+                  <option value="1">1-кімн.</option>
+                  <option value="2">2-кімн.</option>
+                  <option value="3">3-кімн.</option>
+                  <option value="4">4-кімн.</option>
+                  <option value="5">5-кімн.</option>
+                  <option value="6">>5-кімн.</option>
+
+                </select>
+
+                <div class="btn btn-large dropdown-toggle input-contrast" aria-hidden="true">
+                  <span class="value language current">
+                    1-кімн.
+                  </span>
+                  <i class="icon icon-caret-down icon-gray"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+            
+              <div class="custom-select-container">
+            
+
+                <select id="flat" name="flat" class="search-option small">
+                  <option value="11">квартиру</option>
+                  <option value="12">будинок</option>
+                
+                </select>
+
+                <div class="btn btn-large dropdown-toggle input-contrast" aria-hidden="true">
+                  <span class="value language current">
+                    квартиру
+                  </span>
+                  <i class="icon icon-caret-down icon-gray"></i>
+                </div>
+              </div>
+            </div>
+
+           <div class="input-wrapper">
+            
+              <div class="custom-select-container">
+                
+
+                <select id="guests" name="guests" class="search-option small">
+                  <option value="1">Києві</option>
+                  <option value="2">Донецьку</option>
+                  <option value="3">Дніпропетровьску</option>
+                  <option value="4">Одесі</option>
+                  <option value="5">Запоріжжі</option>
+                  <option value="6">Львові</option>
+                  <option value="7">Харкові</option>
+                 
+                </select>
+
+                <div class="btn btn-large dropdown-toggle input-contrast" aria-hidden="true">
+                  <span class="value language current">
+                    Києві
+                  </span>
+                  <i class="icon icon-caret-down icon-gray"></i>
+                </div>
+              </div>
+            </div>
+
+
+
+
+<!-- Календарі оригінальні
+            <div id="checkinWrapper" class="input-wrapper">
+              <input type="text" id="checkin" class="checkin search-option input-large input-contrast" name="checkin" placeholder="Тип обміну" />
+              <span class="search-area-icon"></span>
+            </div>
+            <div id="checkinWrapper" class="input-wrapper">
+              <input type="text" id="checkin" class="checkin search-option input-large input-contrast" name="checkin" placeholder="Check in" />
+              <span class="search-area-icon"></span>
+            </div>
+            <div id="checkoutWrapper" class="input-wrapper">
+              <input type="text" id="checkout" class="checkout search-option input-large input-contrast" name="checkout" placeholder="Check out" />
+              <span class="search-area-icon search-area-icon-checkout"></span>
+            </div>
+
 -->
 
             <input type="hidden" name="source" value="bb">
 
             <button type="submit" class="btn btn-primary btn-large btn-contrast" id="submit_location">
-              Search
+              Підібрати
             </button>
           </form>
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </div>
     </div>
@@ -454,6 +588,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <i class="icon icon-chevron-right"></i>
     </a>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
