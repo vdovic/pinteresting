@@ -85,4 +85,7 @@ Rails.application.configure do
   #Note to set this to your actual host (to be CHANGED!!!! when the domain is REGISTERED!!!!!!)
   config.action_mailer.default_url_options = { :host => 'vdovic-pinteresting.herokuapp.com/' }
 
+  # config/environments/production.rb
+
+
 end
