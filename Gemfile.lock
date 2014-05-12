@@ -138,7 +138,7 @@ GEM
       rack (>= 1.0)
 
 PLATFORMS
-  
+  x86-mingw32
 
 DEPENDENCIES
   bootstrap-sass
