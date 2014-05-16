@@ -85,10 +85,12 @@
   <div id="header" class="navbar navbar-top">
   <div class="navbar-inner">
     <div class="container page-container">
+      
       <ul class="nav pull-left">
         <a href="/"><img src="/logo.png" border="0" alt="Обмін квартир" width="242" height="42"></a>
       </ul>
-      <ul class="nav pull-right">
+      
+    <!--  <ul class="nav pull-right">
         <li class="dropdown item_explore">
          <a class="dropdown-toggle" href="javascript:void(0)"> Browse <b class="caret"></b></a>
          <ul class="dropdown-menu dropdown-bordered">
@@ -98,11 +100,12 @@
            <li class="groups"><a href="/groups"><i class="icon icon-comments"></i> Groups</a></li>
          </ul>
         </li>
-      </ul>
+      </ul> 
+    -->
 
       <ul class="nav pull-right help-menu" style="margin-left:0;">
         <li class="dropdown" data-dropdown-sticky="true">
-          <a id="help_dropdown" class="dropdown-toggle help-toggle" href="javascript:void(0)"> Help <b class="caret"></b></a>
+          <a id="help_dropdown" class="dropdown-toggle help-toggle" href="javascript:void(0)"> Інформація <b class="caret"></b></a>
           <div class="dropdown-menu help-dropdown dropdown-bordered">
             <div class="nav-header">
               <a href="/help?ref=help-dropdown" class="help-center-link">Visit the Help Center &#187;</a>
@@ -121,14 +124,14 @@
             </ul>
           </div>
         </li>
-        <li class="list-your-space">
+        <li class="list-your-space pull-right">
           <a id="list-your-space" class="yellow btn btn-special" href="/rooms/new">Подати оголошення</a>
         </li>
       </ul>
 
       <ul class="nav pull-right logged-out">
-        <li id="sign_up"><a data-signup-modal href="/signup_login?redirect_params[action]=show&amp;redirect_params[controller]=homepages&amp;redirect_params[locale]=en">Sign Up</a></li>
-        <li id="login"><a data-login-modal href="/login?redirect_params[action]=show&amp;redirect_params[controller]=homepages&amp;redirect_params[locale]=en">Log In</a></li>
+        <li id="sign_up"><a data-signup-modal href="/signup_login?redirect_params[action]=show&amp;redirect_params[controller]=homepages&amp;redirect_params[locale]=en">Підписатись</a></li>
+        <li id="login"><a data-login-modal href="/login?redirect_params[action]=show&amp;redirect_params[controller]=homepages&amp;redirect_params[locale]=en">Увійти</a></li>
       </ul>
 
       <ul class="nav pull-right logged-in">
